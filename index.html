@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="css/color/palet-1.css">
     <title>Sample 1 - Home</title>
 </head>
-<body>
+<body onload="load()">
     <!-- Header -->
         <header class="fixed-top">
             <div class="row">
                 <ul>
-                    <li> <p onclick="TabChange('Home')" id="Home">خانه</p></li>
-                    <li> <p onclick="TabChange('Biography')" id="Biography">بیوگرافی</p></li>
-                    <li> <p onclick="TabChange('Records')" id="Records">سوابق</p></li>
-                    <li> <p onclick="TabChange('Cammping')" id="Cammping">ستاد ها</p></li>
-                    <li> <p onclick="TabChange('Contact')" id="Contact">راه های ارتباطی</p></li>
+                    <li> <p onclick="TabChange('Home')" id="Home-Tab">خانه</p></li>
+                    <li> <p onclick="TabChange('Biography')" id="Biography-Tab">بیوگرافی</p></li>
+                    <li> <p onclick="TabChange('Records')" id="Records-Tab">سوابق</p></li>
+                    <li> <p onclick="TabChange('Cammping')" id="Cammping-Tab">ستاد ها</p></li>
+                    <li> <p onclick="TabChange('Contact')" id="Contact-Tab">راه های ارتباطی</p></li>
                 </ul>
                 <h1><span id="PreName">مهندس</span> <span id="LastName">سنگدوینی</span></h1>
             </div>
@@ -25,17 +25,82 @@
     <!-- /Header -->
 
     <!-- Content -->
-        <div class="row">
-            <div id="Vector">
-                <img src="img/Vector.png" alt="Vector" class="img-fluid">
+        <section id="Content">
+            <div class="row">
+                <div id="Vector">
+                    <img src="img/Vector.png" alt="Vector" class="img-fluid">
+                </div>
+                <div id="Pic">
+                    <img src="img/Pic01.png" alt="Pic01" class="img-fluid">
+                </div>
+                <div id="Change">
+                    <!-- Home -->
+                    <section id="Home">
+                        <div class="column">
+                            <h2>مهندس</h2>
+                            <h3>رمضانعلی سنگدوینی</h3>
+                            <p>نماینده ی مردم شریف حوزه انتخاباتی گرگان و آق قلا در یازدهمین دوره مجلس شورای اسلامی</p>
+                        </div>
+                    </section>
+                    <!-- /Home -->
+    
+                    <!-- Biography -->
+                    <section id="Biography">
+                        <div class="column">
+                            <h2>بیوگرافی</h2>
+                            <p>
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                 چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود
+                                 ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                                  تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص
+                                   طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ
+                                   به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                            </p>
+                        </div>
+                    </section>
+                    <!-- /Biography -->
+    
+                    <!-- Records -->
+                    <section id="Records">
+                        <div class="column">
+                            <h2>سوابق</h2>
+                            <p>مدیرعامل اسبق شرکت گاز استان گلستان</p>
+                        </div>
+                    </section>
+                    <!-- /Records -->
+    
+                    <!-- Cammping -->
+                    <section id="Cammping">
+                        <div class="column">
+                            <h2>ستاد ها</h2>
+                            <h3>آدرس 1 :</h3>
+                            <h3>آدرس 2 :</h3>
+                            <h3>آدرس 3 :</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d399.2023874596454!2d54.44397196104933!3d36.827646392939016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8335fd66ab77a1%3A0xcd206c7dbe2a27ab!2sKava%20Co.!5e0!3m2!1sen!2s!4v1700243131555!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </section>
+                    <!-- /Cammping -->
+                
+                    <!-- Contact -->
+                    <section id="Contact">
+                        <div class="column">
+                            <h2>راه های ارتباطی</h2>
+                            <h3>شماره تماس :</h3>
+                            <h3>آدرس دفتر :</h3>
+                            <h3>نشانی در شبکه های اجتماعی</h3>
+                            <div class="SocialBox row">
+                                <div class="SocialMedia"></div>
+                                <div class="SocialMedia"></div>
+                                <div class="SocialMedia"></div>
+                                <div class="SocialMedia"></div>
+                                <div class="SocialMedia"></div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- /Contact -->
+                </div>
             </div>
-            <div id="Pic">
-                <img src="img/Pic01.png" alt="Pic01" class="img-fluid">
-            </div>
-            <div id="Change">
-
-            </div>
-        </div>
+        </section>
     <!-- /Contetn -->
 </body>
 <script src="js/script.js"></script>
