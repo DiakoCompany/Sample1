@@ -1,0 +1,28 @@
+:root
+{
+    --BackGroung-1 :#1e9c76;
+    --BackGround-2 :#f9f9f9;
+    --Text : #242635;
+}
+a 
+{
+    color: var(--BackGround-2);
+}
+/* Header */
+#PreName 
+{
+    color: var(--BackGroung-1);
+}
+#LastName
+{
+    color: var(--Text);
+}
+.header li 
+{
+    border-color:var(--BackGround-2) !important;
+}
+/* Content */
+#Vector
+{
+    background-color: var(--BackGroung-1) !important;
+}
