@@ -25,11 +25,11 @@ header ul
 }
 header li
 {
+    cursor: pointer;
     display: inline-block;
     font-weight: bold;
     font-size: 40px;
     margin-left: 70px;
-    padding-bottom: 20px;
     border-bottom: none;
 }
 header h1
@@ -38,6 +38,11 @@ header h1
     font-size: 40px;
     padding-top: 20px;
     padding-right: 120px !important;
+}
+.UnderLine
+{
+    padding-bottom: 20px;
+    border-bottom: 3px solid #f9f9f9 ;
 }
 /* Content */
 #Contact
