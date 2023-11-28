@@ -26,3 +26,16 @@ li
 {
     background-color: var(--BackGroung-1) !important;
 }
+/* Change */
+#Change h2{
+    color: var(--BackGroung-1);
+}
+/* Home */
+#Home h3
+{
+    color: var(--Text);
+}
+#Home p
+{
+    color: var(--Text);
+}
