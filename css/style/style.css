@@ -45,7 +45,7 @@ header h1
     border-bottom: 3px solid #f9f9f9 ;
 }
 /* Content */
-#Contact
+#Content
 {
     position: relative;
     width: 100%!important;
@@ -73,3 +73,103 @@ header h1
     width: 700px;
     height: 800px;
 }
+/* Change */
+#Change
+{
+    width: 40% !important;
+    height: 900px !important;
+    margin-top: 100px;
+}
+#Change section
+{
+    width: 100% !important;
+    height: 100% !important;
+}
+#Change h2
+{
+   font-size: 60px !important;
+   font-weight: bolder !important;
+}
+/* Home */
+ #Home
+ {
+    text-align: right;
+    padding-top: 300px !important;
+ }
+ #Home h3
+{
+    font-size: 70px !important;
+    padding-top: 10px;
+    font-weight: bold !important;
+    text-align: center;
+}
+ #Home p
+ {
+    padding-top: 30px;
+    font-weight: bold !important;
+    font-size: 35px;
+ }
+/* Biography */
+ #Biography
+ {
+    padding-top: 200px;
+ }
+ #Biography p
+ {
+    padding-top: 30px;
+    font-size: 25px;
+ }
+/* Records */
+ #Records
+ {
+    padding-top: 250px;
+ }
+ #Records p
+ {
+    padding-top: 30px;
+    padding-right: 50px;
+    font-size: 30px;
+ }
+/* Cammping */
+#Cammping
+ {
+    padding-top: 200px;
+ }
+#Cammping h3
+{
+    padding-top: 30px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+#Cammping iframe
+{
+    margin-top: 50px;
+    width: 700px !important;
+    height: 300px !important;
+    border-radius: 50px;
+}
+/* Contact */
+ #Contact
+ {
+    padding-top: 250px;  
+ }
+ #Contact h3
+ {
+    padding-top: 30px;
+    padding-right: 10px;
+    font-size: 25px;
+ }
+ #Contact .SocialBox
+{
+    width: 700px !important;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+ #Contact .SocialMedia
+ {
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    border-radius: 100%;
+    background-color: gray;
+ }
