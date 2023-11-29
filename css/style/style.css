@@ -6,6 +6,29 @@ a
 {
     text-decoration: none;
 }
+/* Menu */
+#Menu
+{
+    position: absolute;
+    z-index: 2;
+    background: transparent ;
+}
+#Menu-Box
+{
+    z-index: 3;
+}
+#Menu-Open
+{
+    position: absolute;
+}
+#Menu-Close
+{
+    position: absolute;
+}
+#Menu-Item
+{
+    z-index: 10;
+}
 /* Header */
 header
 {
