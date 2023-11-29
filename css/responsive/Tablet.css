@@ -1,0 +1,186 @@
+@media screen and (max-width : 768px) {
+    .row
+    {
+        width: 100% !important;
+    }
+    /* Menu */
+    #Menu
+    {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin-right: -100px;
+    }
+    #Menu-Open
+    {
+        width: 70px !important;
+        height: 60px !important;
+        margin-top: 20px;
+        margin-right: 120px;
+    }
+    /* Menu Box */
+    #Menu-Box
+    {
+        width: 70% !important;
+        height: 100% !important;
+        margin-right: 100px;
+        transition: all 0.5s ease-in-out;
+    }
+    .MenuClose
+    {
+        margin-right: -450px !important;
+    }
+    #Menu-BackGround
+    {
+        width: 100%;
+        height: 100%;
+    }
+    #Menu-Close
+    {
+        width: 70px !important;
+        height: 60px !important;
+        margin-top: 20px;
+        margin-right: -500px;
+    }
+    #Menu-Item
+    {   
+        margin-top: -800px;
+    }
+    #Menu-Item li 
+    {
+        font-size: 50px;
+    }
+    /* Header */
+    header 
+    {
+        display: none;
+    }
+    /* Content */
+    #Content
+    {
+        width: 100%!important;
+    }
+    #Vector
+    {
+        width: 80% !important;
+        height: 100vh !important;
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 50% 100%);
+    }
+    #Vector img
+    {
+        width: 100% !important;
+        height: 100% !important;
+        opacity: 20%;
+    }
+    #Pic img 
+    {
+        margin-top: 414px;
+        margin-right: 150px;
+        width: 500px;
+        height: 500px;
+    }
+    /* Change */
+    #Change
+    {
+        position: absolute;
+        width: 80% !important;
+        height: 700px !important;
+        margin-right: 100px;
+        margin-top: -100px;
+    }
+    #Change section
+    {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #Change h2
+    {
+       font-size: 40px !important;
+       margin-right: -35px;
+    }
+    /* Home */
+    #Home
+    {
+       padding-top: 200px !important;
+    }
+    #Home h3
+    {
+        font-size: 60px !important;
+       margin-right: -35px;
+        padding-top: 10px;
+    }
+    #Home p
+    {
+       padding-top: 30px;
+       font-size: 29px;
+       margin-right: -35px;
+    }
+    /* Biography */
+    #Biography
+    {
+       padding-top: 200px;
+    }
+    #Biography p
+    {
+       padding-top: 10px;
+       font-size: 17px;
+    }
+    /* Records */
+    #Records
+    {
+       padding-top: 250px;
+    }
+    #Records p
+    {
+       padding-top: 30px;
+       padding-right: 0px;
+       font-size: 20px;
+    }
+    /* Cammping */
+    #Cammping
+    {
+       padding-top: 200px;
+    }
+   #Cammping h3
+   {
+       padding-top: 25px;
+       padding-right: 0px;
+       font-size: 20px;
+   }
+   #Cammping iframe
+   {
+        display: none;
+       margin-top: 50px;
+       width: 350px !important;
+       height: 200px !important;
+       border-radius: 50px;
+   }
+   /* Contact */
+   #Contact
+   {
+      padding-top: 200px;  
+   }
+   #Contact h3
+   {
+      padding-top: 20px;
+      padding-right: 0px;
+      font-size: 18px;
+   }
+   #Contact .SocialBox
+  {
+      width: 600px !important;
+      padding-top: 20px;
+      padding-right: 50px;
+  }
+   #Contact .SocialMedia
+   {
+      width: 70px;
+      height: 70px;
+      margin-left: 30px;
+      border-radius: 100%;
+   }
+   #Contact img
+   {
+       width: 100% !important;
+   }
+}
