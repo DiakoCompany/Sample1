@@ -1,0 +1,152 @@
+@media screen and (max-width : 1440px) {
+    .row
+    {
+        width: 100% !important;
+    }
+    /* Header */
+    header ul
+    {
+        width: 70% !important;
+        padding-top: 20px;
+        padding-right: 50px !important;
+    }
+    header li
+    {
+        font-size: 35px;
+        margin-left: 40px;
+    }
+    header h1
+    {
+        width: 25% !important;
+        font-size: 25px;
+        padding-top: 30px;
+        padding-right: 0px !important;
+    }
+    .UnderLine
+    {
+        padding-bottom: 20px;
+        border-bottom: 3px solid #f9f9f9 ;
+    }
+    /* Content */
+    #Content
+    {
+        width: 100%!important;
+    }
+    #Vector
+    {
+        width: 60% !important;
+        height: 100vh !important;
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 20% 100%);
+    }
+    #Vector img
+    {
+        width: 100% !important;
+        height: 100% !important;
+        opacity: 20%;
+    }
+    #Pic img 
+    {
+        margin-top: 307px;
+        margin-right: 250px;
+        width: 600px;
+        height: 700px;
+    }
+    /* Change */
+    #Change
+    {
+        width: 40% !important;
+        height: 900px !important;
+        margin-top: 100px;
+    }
+    #Change section
+    {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #Change h2
+    {
+       font-size: 50px !important;
+    }
+    /* Home */
+    #Home
+    {
+       padding-top: 300px !important;
+    }
+    #Home h3
+    {
+        font-size: 60px !important;
+        padding-top: 10px;
+    }
+    #Home p
+    {
+       padding-top: 30px;
+       font-size: 26px;
+    }
+    /* Biography */
+    #Biography
+    {
+       padding-top: 200px;
+    }
+    #Biography p
+    {
+       padding-top: 30px;
+       font-size: 22px;
+    }
+    /* Records */
+    #Records
+    {
+       padding-top: 250px;
+    }
+    #Records p
+    {
+       padding-top: 30px;
+       padding-right: 40px;
+       font-size: 25px;
+    }
+    /* Cammping */
+    #Cammping
+    {
+       padding-top: 200px;
+    }
+   #Cammping h3
+   {
+       padding-top: 30px;
+       padding-right: 10px;
+       font-size: 25px;
+   }
+   #Cammping iframe
+   {
+       margin-top: 50px;
+       width: 500px !important;
+       height: 250px !important;
+       border-radius: 50px;
+   }
+   /* Contact */
+   #Contact
+   {
+      padding-top: 250px;  
+   }
+   #Contact h3
+   {
+      padding-top: 30px;
+      padding-right: 0px;
+      font-size: 20px;
+   }
+   #Contact .SocialBox
+  {
+      width: 500px !important;
+      padding-top: 50px;
+      padding-right: 20px;
+  }
+   #Contact .SocialMedia
+   {
+      width: 80px;
+      height: 80px;
+      margin-left: 15px;
+      border-radius: 100%;
+   }
+   #Contact img
+   {
+       width: 100% !important;
+   }
+}
