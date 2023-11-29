@@ -3,6 +3,11 @@
     {
         width: 100% !important;
     }
+    /* Menu */
+    #Menu
+    {
+        display: none;
+    }
     /* Header */
     header ul
     {
