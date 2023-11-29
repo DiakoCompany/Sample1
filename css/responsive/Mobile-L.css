@@ -44,7 +44,7 @@
     }
     #Menu-Item
     {   
-        margin-top: -800px;
+        margin-top: -820px;
     }
     #Menu-Item li 
     {
@@ -63,7 +63,7 @@
     #Vector
     {
         width: 80% !important;
-        height: 100.7vh !important;
+        height: 100vh !important;
         clip-path: polygon(0 0 , 100% 0 , 100% 100% , 40% 100%);
     }
     #Vector img
@@ -74,7 +74,7 @@
     }
     #Pic img 
     {
-        margin-top: 420px;
+        margin-top: 415px;
         margin-right: 70px;
         width: 300px;
         height: 500px;
