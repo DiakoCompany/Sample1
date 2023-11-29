@@ -1,0 +1,155 @@
+@media screen and (max-width : 1024px) {
+    .row
+    {
+        width: 100% !important;
+    }
+    /* Header */
+    header ul
+    {
+        width: 70% !important;
+        padding-top: 20px;
+        padding-right: 30px !important;
+    }
+    header li
+    {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    header h1
+    {
+        width: 30% !important;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-right: 0px !important;
+    }
+    .UnderLine
+    {
+        padding-bottom: 20px;
+        border-bottom: 3px solid #f9f9f9 ;
+    }
+    /* Content */
+    #Content
+    {
+        width: 100%!important;
+    }
+    #Vector
+    {
+        width: 60% !important;
+        height: 100vh !important;
+        clip-path: polygon(0 0 , 100% 0 , 100% 100% , 20% 100%);
+    }
+    #Vector img
+    {
+        width: 100% !important;
+        height: 100% !important;
+        opacity: 20%;
+    }
+    #Pic img 
+    {
+        margin-top: 314px;
+        margin-right: 100px;
+        width: 500px;
+        height: 600px;
+    }
+    /* Change */
+    #Change
+    {
+        width: 40% !important;
+        height: 700px !important;
+        margin-top: 100px;
+    }
+    #Change section
+    {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #Change h2
+    {
+       font-size: 40px !important;
+       margin-right: -35px;
+    }
+    /* Home */
+    #Home
+    {
+       padding-top: 250px !important;
+    }
+    #Home h3
+    {
+        font-size: 40px !important;
+       margin-right: -35px;
+        padding-top: 10px;
+    }
+    #Home p
+    {
+       padding-top: 30px;
+       font-size: 20px;
+       margin-right: -35px;
+    }
+    /* Biography */
+    #Biography
+    {
+       padding-top: 150px;
+    }
+    #Biography p
+    {
+       padding-top: 30px;
+       font-size: 20px;
+    }
+    /* Records */
+    #Records
+    {
+       padding-top: 250px;
+    }
+    #Records p
+    {
+       padding-top: 30px;
+       padding-right: 0px;
+       font-size: 20px;
+    }
+    /* Cammping */
+    #Cammping
+    {
+       padding-top: 150px;
+    }
+   #Cammping h3
+   {
+       padding-top: 25px;
+       padding-right: 0px;
+       font-size: 20px;
+   }
+   #Cammping iframe
+   {
+       margin-top: 50px;
+       width: 350px !important;
+       height: 200px !important;
+       border-radius: 50px;
+   }
+   /* Contact */
+   #Contact
+   {
+      padding-top: 250px;  
+   }
+   #Contact h3
+   {
+      padding-top: 30px;
+      padding-right: 0px;
+      font-size: 18px;
+   }
+   #Contact .SocialBox
+  {
+      width: 350px !important;
+      padding-top: 50px;
+      padding-right: 0px;
+  }
+   #Contact .SocialMedia
+   {
+      width: 60px;
+      height: 60px;
+      margin-left: 10px;
+      border-radius: 100%;
+   }
+   #Contact img
+   {
+       width: 100% !important;
+   }
+}
