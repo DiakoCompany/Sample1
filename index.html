@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/responsive/4K.css">
     <link rel="stylesheet" href="css/responsive/Laptop-L.css">
     <link rel="stylesheet" href="css/responsive/Laptop.css">
+    <link rel="stylesheet" href="css/responsive/Tablet.css">
+    <link rel="stylesheet" href="css/responsive/Mobile-L.css">
+    <link rel="stylesheet" href="css/responsive/Mobile-M.css">
+    <link rel="stylesheet" href="css/responsive/Mobile-S.css">
     <link rel="stylesheet" href="css/color/palet-1.css">
     <title>Sample 1 - Home</title>
 </head>
@@ -25,6 +29,28 @@
             </div>
         </header>
     <!-- /Header -->
+    
+    <!-- Menu -->
+    <section id="Menu">
+        <div id="Menu-Open">
+            <img src="img/Menu-White.png" alt="Menu" class="img-fluid" onclick="Menu('Open')">
+        </div>
+        <div id="Menu-Box" class="MenuClose">
+            <img src="img/Vector.png" alt="Vector" class="img-fluid" id="Menu-BackGround">
+            <img src="img/Menu-Green.png" alt="Menu" id="Menu-Close" onclick="Menu('Close')">
+            <div class="column " id="Menu-Item">
+                <ul>
+                    <li class="list-unstyled"> <p onclick="TabChange('Home')" id="Home-Item">خانه</p></li>
+                    <li class="list-unstyled"> <p onclick="TabChange('Biography')" id="Biography-Item">بیوگرافی</p></li>
+                    <li class="list-unstyled"> <p onclick="TabChange('Records')" id="Records-Item">سوابق</p></li>
+                    <li class="list-unstyled"> <p onclick="TabChange('Cammping')" id="Cammping-Item">ستاد ها</p></li>
+                    <li class="list-unstyled"> <p onclick="TabChange('Contact')" id="Contact-Item">راه های ارتباطی</p></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <!-- /Menu -->
 
     <!-- Content -->
         <section id="Content">
