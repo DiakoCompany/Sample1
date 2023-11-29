@@ -13,13 +13,13 @@
     header li
     {
         font-size: 40px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
     header h1
     {
         width: 25% !important;
         font-size: 30px;
-        padding-top: 20px;
+        padding-top: 30px;
         padding-right: 10px !important;
     }
     .UnderLine
@@ -80,7 +80,7 @@
     #Home p
     {
        padding-top: 30px;
-       font-size: 35px;
+       font-size: 33px;
     }
     /* Biography */
     #Biography
