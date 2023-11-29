@@ -8,6 +8,15 @@ li
 {
     color: var(--BackGround-2);
 }
+/* Menu */
+#Menu-Box
+{
+    background-color: var(--BackGround-2);
+}
+#Menu-Item li
+{
+    color: var(--BackGroung-1);
+}
 /* Header */
 #PreName 
 {
@@ -38,4 +47,9 @@ li
 #Home p
 {
     color: var(--Text);
+}
+@media screen and (max-width : 768px) {
+    #Change h2{
+        color: var(--BackGround-2);
+    }
 }
